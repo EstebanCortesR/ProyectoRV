@@ -18,7 +18,7 @@ public class ReproductorVideos : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && coliciona == true)
+        if (Input.GetKeyDown(KeyCode.D) && coliciona == true)
         {
             pantallaSola.SetActive(false);
             video.SetActive(true);
